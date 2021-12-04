@@ -1,0 +1,203 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.big-heading {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-lighter';
+}
+
+.download_button {
+  margin: 5% 5% 5% 0;
+}
+
+/* Title image */
+.title-img {
+  transform: rotate(23deg);
+  height: 600px;
+  position: absolute;
+  right: 23%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature {
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+p {
+  color: #8f8f8f;text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+.test-img {
+  padding-top: 4%;
+  width: 20%;
+  border-radius: 60%;
+  padding-right: 15px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Credits */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.price-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 40px auto 15px;
+}
+
+.card-header {
+  background-color: #EAEAEA;
+  text-align: center;
+}
+
+.plan-title {
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+.plan-bottom {
+  margin-bottom: 40px;
+}
+
+.price-no {
+  font-size: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  padding-bottom: 13px;
+}
+
+
+.tac {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+@media(max-width: 1084px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    padding-top: 20px;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #FC997C;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+
+.ft {
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: 0 25%;
+  text-align: center;
+
+}
+
+.btn-secondary {
+  background-color: #FC997C;
+}
+
+.bt {
+  margin: 50px 10px 100px 10px;
+}
+
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.fab {
+  padding: 10px;
+}
